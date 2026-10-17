@@ -78,9 +78,21 @@ Make sure the `feature/` folder contains the required image and audio files.
 7. Guess the entire word before reaching 12 penalties to win!
 
 
+### Penalty System
+
+| Action | Penalty |
+|---|---|
+| Correct letter | 0 |
+| Incorrect letter | +1 |
+| Correct word | 0 |
+| Incorrect word of the correct length | +5 |
+| Invalid word length | 0 |
+
+**Maximum penalties: 12**
 
 
-🏆 Best Score System
+
+## 🏆 Best Score System
 
 The game records the lowest number of attempts required to win.
 The best score is saved locally in best_score.txt with the following format:
@@ -91,7 +103,7 @@ When a player wins with fewer attempts than the previous record, the file is aut
 
 
 
-🎵 Background Music
+## 🎵 Background Music
 
 This game uses "Game Gaming Video Game Music" by Tatamusic, available on Pixabay which is subject to the Pixabay Content License.
 
@@ -105,7 +117,7 @@ To enable background music:
 The game also works without background music.
 
 
-🔊 Sound Effects Credits
+## 🔊 Sound Effects Credits
 
 The following sound effects are used in this project:
 
@@ -118,7 +130,7 @@ Special thanks to the creators for sharing their work!
 
 
 
-🔮 Possible Future Improvements
+## 🔮 Possible Future Improvements
 
     - Add difficulty levels (Easy, Medium, Hard)
 
