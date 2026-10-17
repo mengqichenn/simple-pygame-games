@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Background music - Pixabay
+feature/tatamusic-game-gaming-video-game-music-482380.mp3
