@@ -50,22 +50,66 @@ The `feature/` directory contains the graphical and audio resources used by the 
 
 ```bash
 git clone <repository-url>
-cd <repository-folder>
+cd simple-pygame-games/hangman_pygame
 ```
 
-### 2. Install the required packages
+### 2. Create a virtual environment
+
+It is recommended to use a Python virtual environment to keep the project's dependencies isolated.
+
+**Linux / macOS:**
+
+```bash
+python3 -m venv venv
+```
+
+**Windows:**
+
+```powershell
+python -m venv venv
+```
+
+### 3. Activate the virtual environment
+
+**Linux / macOS:**
+
+```bash
+source venv/bin/activate
+```
+
+**Windows (PowerShell):**
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Once activated, `(venv)` should appear at the beginning of your terminal prompt.
+
+### 4. Install the required packages
 
 ```bash
 python -m pip install pygame english-words
 ```
 
-### 3. Run the game
+### 5. Run the game
 
 ```bash
 python hangman_pygame.py
 ```
 
-Make sure the `feature/` folder contains the required image and audio files.
+Make sure the `feature/` directory contains the required image and sound effects.
+
+The background music is optional and is not included in this repository. See the **Background Music** section for instructions.
+
+### 6. Deactivate the virtual environment
+
+When you are finished playing, you can deactivate the virtual environment:
+
+```bash
+deactivate
+```
+
+**Note:** The `venv/` directory is excluded from Git using `.gitignore`. Each user should create their own virtual environment after cloning the repository.
 
 ## 🎯 How to Play
 
