@@ -62,9 +62,9 @@ No Pygame installation is required for this version.
 python hangman_terminal.py
 ```
 
-A random English word will be selected automatically.
+A random English word will be selected automatically, or you can choose to use a custom word list that you created (see below).
 
-## 📂 Using a Custom Word List
+#### Using a Custom Word List
 
 You can also play with your own list of words instead of the default English word collection.
 
@@ -76,6 +76,7 @@ computer
 programming
 keyboard
 developer
+...
 ```
 
 Then run:
